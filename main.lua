@@ -784,7 +784,9 @@ local function activationReactors()
             local success2, activation = pcall(function() return r.activate() end)
             if success2 then
                 shutdownReactors[reactorsAddr[i].address] = false
-                chatBox.say("Активация реактора №" .. i .. " (адрес: " .. reactorsAddr[i].address:sub(1,8) .. ")")
+                if chatBox then
+                    chatBox.say("Активация реактора №" .. i .. " (адрес: " .. reactorsAddr[i].address:sub(1,8) .. ")")
+                end
             end
         end
         
