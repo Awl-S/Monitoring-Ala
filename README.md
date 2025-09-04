@@ -163,7 +163,9 @@ admin.lua help
 
 ## 📝 Лицензия
 
-Проект распространяется по лицензии Attribution-NonCommercial 4.0 International
+SPDX-License-Identifier: AGPL-3.0-only
+
+Copyright (c) 2023-2025 Stawlie
 
 ## 📞 Контакты и поддержка
 
